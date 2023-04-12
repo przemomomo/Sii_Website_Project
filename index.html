@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
+    <nav class="navbar flex">
             <div class="logo">SeifDesign</div>
-            <ul class="nav">
+            <ul class="nav flex">
                 <li>
                     <a href="#">Support</a>
                 </li>
@@ -21,71 +26,85 @@
                 <li>
                     <a href="#" id="account">Account</a>
                 </li>
-            </ul>                           
-        </div>
+            </ul>
   </nav>
   <header class="header">
-    <div class="container">
-        <div class="main-left">
+    <div class="gradient-small"></div>
+    <div class="gradient-lg"></div>
+    <div class="container flex">
+        <div class="main-left flex">
             <h1>ORGANIZE YOUR DAILY TASKS</h1>
             <p>Create your tasks in a snap using fantastic free features</p>
             <button class="standard-button">Get Started</button>
         </div>
-        <img class='user' src="user.jpg" alt="">
+        <div class="main-right flex">
+            <img class='user header-img' src="./img/guy.png" alt="">
+            <img class='header-img' src="./img/Ellipse 3.png" alt="">
+        </div>
 
     </div>
-    <div class="icon-container">
-        <div class="icons">
-            <div class="icon"></div>
-            <div class="icon"></div>
-            <div class="icon"></div>
+    <div class="icon-container flex">
+        <div class="icons flex">
+            <div class="icon flex"><img src="./img/violet_circles.png" alt="">
+                <p class="icon-title">easy to use</p>
+            </div>
+            <div class="icon flex"><img src="./img/blue_circle.png" alt="">
+                <p class="icon-title">super Eficicient</p>
+            </div>
+            <div class="icon flex"><img src="./img/rectangle.png" alt="">
+                <p class="icon-title">Use it whereever you want</p>
+            </div>
         </div>
     </div>
   </header>
   <section class="boxes">
-    <div class="box-container">
-        <div class="box">
-            <div class="box-content">
+    <div class="box-container flex">
+        <div class="box flex">
+            <div class="box-content flex">
                 <h2>Revolutionizes The Way You Work</h2>
                 <p> manage and monitor everything from a single application and take it everywhere. 
                 Now it's time to get results</p>
                 <button class="standard-button">Learn More</button>
             </div>
-            <img class='user' src="user.jpg" alt="">
+            <img class='user' src="./img/Other 13.png" alt="">
         </div>
-        <div class="box">
-            <img class='user' src="user.jpg" alt="">
-             <div class="box-content">
+        <div class="box flex">
+            <img class='user' src="./img/monitor.png" alt="">
+            <div class="box-content flex">
                 <h2>Smart System And Simple Interface</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Veritatis neque eum quasi nesciunt est nisi sapiente culpa! Culpa quia,
-                     itaque cum mollitia excepturi deleniti fugit suscipit sunt ullam non. Perspiciatis?</p>
+                <p>A system that can track and help you along the way is combined with an impeccably simple interface .
+                </p>
                  <button class="standard-button">Learn More</button>
              </div>
-            </div>    
         </div>
-        <div class="box">
-            <div class="box-content">
+        <div class="box flex">
+            <div class="flex designer">
                 <h2>What Our Customers Think?</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Veritatis neque eum quasi nesciunt est nisi sapiente culpa! Culpa quia,
-                 itaque cum mollitia excepturi deleniti fugit suscipit sunt ullam non. Perspiciatis?</p>
-                <button class="standard-button">Learn More</button>
+                <div class="flex box2">
+                    <img id='designer-img' src="./img/people.png" alt="">
+                    <div class="flex box2-content">
+                        <h3>Ilaria Chiaro</h3>
+                        <p class="designer-title">Web designer</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Veritatis neque eum quasi nesciunt est nisi sapiente culpa! Culpa quia,
+                            itaque cum mollitia excepturi deleniti fugit suscipit sunt ullam non. Perspiciatis?</p>
+                        <button class="standard-button">Learn More</button>
+                     </div>
+                </div>
             </div>
-              <img class='user' src="user.jpg" alt="">
             </div>
-
-        </div>
-    </div>
+            </div>
+            </div>
   </section>
   <footer>
-    <div class="footer-container">
-        <div>contact us</div>
-        <div>SeifDesign</div>
-        <div class="social-media-icons">
-            <div>F</div>
-            <div>I</div>
-            <div>T</div>
+    <div class="footer-container flex">
+        <div>Contact us</div>
+        <div class="bold">SeifDesign</div>
+        <div class="social-media-icons flex">
+
+            <a href="#"><i class="fab fa-facebook fa-2x" style="color: #222831"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x" style="color: #222831"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x" style="color: #222831"></i></a>
         </div>
     </div>
 
